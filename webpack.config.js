@@ -19,7 +19,7 @@ module.exports = {
     },
     plugins: [
         new CopyWebpackPlugin([{
-            context: '.public',
+            context: './public',
             from: '*.*'
         }])
     ],
